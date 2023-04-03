@@ -8,7 +8,8 @@ int main(){
 	
 	float angka[jumlah_index], total, rata_rata;
 		for(int a = 0; a<jumlah_index; a++){
-			cout<<"Masukkan angka ke-"<<a<<" : ";
+			int angkaKe = a+1;
+			cout<<"Masukkan angka ke-"<<angaKe<<" : ";
 			cin>>angka[a];
 			total += angka[a];
 		}
